@@ -1,0 +1,19 @@
+header {
+    .HeaderContent{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 124px;
+        box-sizing: border-box;
+        color: #4B4B4B;
+        z-index: 1000;
+        font-size: 16px;
+        div {
+            cursor: pointer;
+        }
+    }
+}

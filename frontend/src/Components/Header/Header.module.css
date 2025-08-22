@@ -1,0 +1,24 @@
+header .HeaderContent {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 124px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #4B4B4B;
+  z-index: 1000;
+  font-size: 16px;
+}
+header .HeaderContent div {
+  cursor: pointer;
+}
